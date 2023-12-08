@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <label for="email">Email </label><input type="email" name="email" id="email" required /> <br />
+      <label for="password">Password </label><input type="password" name="password" id="password" required /> <br />
+      <label for="name and lastname">Name and Lastname </label><input type="text" name="name and lastname" id="name and lastname" required /> <br />
+      <label for="date of bird"></label>Date of bird <input type="date" name="date of bird" id="date of bird" required/> <br />
+      <label for="telephone number">Telephone number </label><input type="tel" name="telephone number" id="telephone number" required /> <br />
+      
+      <select name="Choosing plans" id="Choosing plans">
+        <option value="Choosing plans">Free plan </option>
+        <optgroup label="3 Plans">
+          <option value="low_plan">Low plan </option>
+          <option value="mid_plan">Mid plan </option>
+          <option value="high_plan">High plan </option>
+        </optgroup>
+        <option value="checkbox"><input type="checkbox" />Pro plan </option> <br>
+      </select>
+
+      <label for="credit card number">Credit card number </label><input type="text" maxlength="16" placeholder="0000 0000 0000 0000" name="credit card number" id="credit card number" required /> <br />
+      <label for="CVC">CVC </label ><input type="password" name="CVC" id="CVC" maxlength= "3" placeholder="000" required  /> <br />
+      <label for="expiration date">Expiration date </label><input type="month" name="expiration date" id="expiration date" required /> <br />
+      <label for="billing address">Billing address </label><input type="search" name="billing address" id="billing address" required /> <br />
+    <input type="submit" name="submit" id="submit">
+    </form>
+  </body>
+</html>
